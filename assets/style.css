@@ -4,9 +4,9 @@
 /*                                                                   */
 /* Colours:                                                          */
 /*                                                                   */
-/* #1C3950: header and h1 background, h2, h3 foreground, main links  */
-/* HSV: 207, 65, 31                                                  */
-/* Decimal RGB: 28, 57, 80                                           */
+/* #2A5271: header and h1 background, h2, h3 foreground, main links  */
+/* HSV: 206, 160, 113                                                */
+/* Decimal RGB: 42, 82, 113                                          */
 /*                                                                   */
 /* #2A6EA6; link colour, graph line colour, d3 paths, widgets        */
 /* HSV: 207, 75, 65                                                  */
@@ -22,17 +22,20 @@
 /* Reset */
 
 body {
-    background: #fff;
+    background: #333;
     font-style: normal;
     font: 15pt 'Georgia', 'Times New Roman', serif; 
     line-height: 1.7;
     /* font-family: "Helvetica", "Arial", sans-serif; */
-    color: #000;
+    color: #fff;
     width: 100%;
     margin: 0;
     padding: 0;
     text-align: left;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -43,7 +46,8 @@ body {
     top: 0px;
     width: 100%;
     margin: 0;
-    background-color: #1C3950;
+    background-color: #2A5271;
+    text-align: center;
 }
 
 .header {
@@ -113,7 +117,7 @@ h2 a {
 #insertion {
     font: 15pt 'Georgia', 'Times New Roman', serif; 
     line-height: 1.7;
-    color: #333;
+    color: #999;
     padding: 5px 10px 5px 10px;
     background: #ccaaaa;
     border: 1px solid;
@@ -123,12 +127,12 @@ h2 a {
 p {
     font: 15pt 'Georgia', 'Times New Roman', serif; 
     line-height: 1.7;
-    color: #333;
+    color: #999;
     margin: 0 0 1 0;
 }
 
 h3 {
-    color: #1C3950;
+    color: #2A5271;
     margin: 40px 0px 20px 0px;
     padding: 0;
     font-size: 32px;
@@ -138,7 +142,7 @@ h3 {
 }
 
 h4 {
-    color: #1C3950;
+    color: #2A5271;
     margin: 30px 0px 15px 0px;
     padding: 0;
     padding-left: 0px;
@@ -148,7 +152,7 @@ h4 {
 }
 
 h5 {
-    color: #1C3950;
+    color: #2A5271;
     margin: 20px 0px 10px 0px;
     padding: 0;
     padding-left: 0px;
@@ -225,7 +229,7 @@ path {
 
 #toc, .marginnote, .marginequation {
     position: absolute;
-    left: 680px;
+    right: 50px;
     width: 260px;
     padding: 0;
     margin: 0;
@@ -313,7 +317,7 @@ path {
     width: 100%;
     height: 130px;
     margin: 0;
-    background-color: #1C3950;
+    background-color: #2A5271;
 }
 
 span.left_footer, span.right_footer {
@@ -341,7 +345,7 @@ span.right_footer {
 }
 
 .MathJax_Display {
-    color: #333 !important;
+    color: #999 !important;
 }
 
 
